@@ -15,7 +15,7 @@ The sample webpage includes:
 
 ## Live Demo
 View the live webpage here:  
-[https://yourusername.github.io/html-css-sample/](https://yourusername.github.io/html-css-sample/)
+[https://Lokar13.github.io/html-css-sample/]([https://(https://github.com/Lokar13/html-css-sample)/)
 
 ## Files
 - `index.html` – main HTML file  
