@@ -21,7 +21,6 @@ header h1 {
   font-size: 2rem;
 }
 
-/* === Navigation === */
 nav ul {
   list-style: none;
   padding: 0;
@@ -57,25 +56,44 @@ main {
 }
 
 .profile img {
-  width: 150px;             
-  max-width: 90px;        
-  height: auto;            
+  width: 150px;
+  height: auto;
   border-radius: 12px;
   display: block;
   margin: 0 auto 1rem auto;
 }
 
-/* Profile headings and text */
 .profile h2 {
   color: #0077b6;
   margin-bottom: 0.5rem;
 }
 
 .profile p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* === Card Component (used for projects, etc.) === */
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 400px;
+}
+
+.card h2 {
+  color: #0077b6;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
   margin-bottom: 1.5rem;
 }
 
-/* === Buttons === */
+/* === Button === */
 button {
   background-color: #00b4d8;
   color: white;
@@ -90,7 +108,7 @@ button:hover {
   background-color: #0077b6;
 }
 
-/* === Projects Page === */
+/* === Projects Page Layout === */
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -100,24 +118,38 @@ button:hover {
 .project {
   background: white;
   border-radius: 12px;
-  padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.project h3 {
+  color: #0077b6;
+  margin-bottom: 0.5rem;
 }
 
 /* === Footer === */
 footer {
-  text-align: center;
-  padding: 1rem;
   background-color: #0077b6;
   color: white;
-  margin-top: 2rem;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
 }
 
-/* === Responsive adjustments === */
+/* === Responsive Design === */
 @media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
   .profile img {
-    width: 30%; /* slightly larger on mobile */
-    max-width: 120px;
+    width: 120px;
   }
 }
-
