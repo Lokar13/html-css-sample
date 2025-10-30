@@ -1,0 +1,123 @@
+/* === Global Styles === */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f8fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* === Header === */
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* === Navigation === */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* === Main Content === */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* === Profile Section === */
+.profile {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.profile img {
+  width: 150px;             
+  max-width: 90px;        
+  height: auto;            
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+/* Profile headings and text */
+.profile h2 {
+  color: #0077b6;
+  margin-bottom: 0.5rem;
+}
+
+.profile p {
+  margin-bottom: 1.5rem;
+}
+
+/* === Buttons === */
+button {
+  background-color: #00b4d8;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0077b6;
+}
+
+/* === Projects Page === */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.project {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0077b6;
+  color: white;
+  margin-top: 2rem;
+}
+
+/* === Responsive adjustments === */
+@media (max-width: 600px) {
+  .profile img {
+    width: 30%; /* slightly larger on mobile */
+    max-width: 120px;
+  }
+}
+
