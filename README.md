@@ -26,7 +26,7 @@ View the live webpage here:
 - **projects.html** – Lists professional projects and experience  
 - **contact.html** – Provides contact details and links  
 - **style.css** – External stylesheet for layout, colors, and responsive design  
-- **images/** – Folder containing the forest-themed profile image  
+- **images/** – Folder containing the profile image  
 - **README.md** – This documentation file  
 
 ## Author
